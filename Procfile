@@ -1,1 +1,1 @@
-web: node backend/server.js
+web: node_modules/.bin/babel-node --presets 'es2015' backend/server.js
