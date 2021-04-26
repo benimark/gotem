@@ -1,0 +1,53 @@
+.mainDiv{
+    background-color: white;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-bottom: 10vh;
+    padding: 30px;
+}
+.mainDiv h1{
+    font-size: 50px;
+    margin: 0;
+}
+.id{
+    font-size: 15px;
+    margin: 0;
+}
+.AdminBadge{
+    background-color: #4C8BDB;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+h2{
+    margin: 20px 0px;
+}
+table{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+}
+th{
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: rgb(29,29,29);
+    color: white;
+}
+td{
+    padding: 5px 10px;
+    font-weight: bold;
+}
+@media (max-width:768px){
+    .mainDiv h1{
+        font-size: 30px;
+    }
+    .AdminBadge{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    table{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,22 @@
+.Footer{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background: rgb(29,29,29) !important;
+    color: white !important;
+    font-weight: 600;
+    padding: 15px;
+}
+.Footer a{
+  color: white;
+}
+.Footer p{
+  margin: 0;
+}
+@media (max-width:768px){
+  .Footer p{
+    font-size: 10px;
+  }
+  .Footer{
+    margin-bottom: 50px;
+  }
+}

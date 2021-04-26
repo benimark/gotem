@@ -1,0 +1,206 @@
+.Admin{
+    background-color: #ffffff;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-bottom: 10vh;
+    height:100vh;
+}
+.AdminButtons{
+    height: 100%;
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
+}
+.Style{
+    height: 100%;
+}
+.Style h1{
+    margin-left: 30px;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.OrderLength{
+    font-size: 35px;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    margin: 5px 0px 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: rgb(29, 29, 29);
+}
+.deleteButtonDiv{
+    margin-bottom: 20px !important;
+}
+.SentButton{
+    margin-left: 30px  !important;
+    width: 50% !important;
+    background-color: white !important;
+    color:rgba(0, 0, 0, 1) !important;
+    border: 1px solid rgba(0, 0, 0, 1) !important;
+    z-index: 10 !important;
+}
+.SentButton:hover{
+    background-color: black !important;
+    color:white !important;
+}
+.card h3{
+    font-size: 20px;
+}
+.showMoreDiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.CartItems{
+    padding: 20px;
+}
+.products h2{
+    padding: 2px;
+    line-height: normal;
+    font-size: 17px;
+    text-align: right;
+    margin:0px 5px;
+}
+.CartItems img{
+    width: 100%;
+}
+.NotSentIcon,.SentIcon,.RadioIcon{
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.NotSentIcon{
+    background-color: #FA5555;
+}
+.SentIcon{
+    background-color: #46e06f;
+}
+.RadioIcon{
+    background-color: rgb(29, 29, 29);
+}
+.Icons{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.details{
+    cursor: default;
+}
+hr{
+    display: none;
+}
+.UsersCard .card{
+    margin-left:10px;
+    margin-bottom:10px;
+    padding-left:15px;
+}
+.ExpandMoreIcon{
+    margin-right: 20px;
+}
+.Product{
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.Products:hover .Product:not(:hover){
+    opacity: 0.5;
+}
+.Product img{
+    width: 100%;
+    margin: 10px 10px 0px 10px;
+    height: 150px;
+    object-fit: contain;
+}
+.Product p{
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+}
+.Products{
+    padding: 20px;
+}
+
+@media(max-width:768px){
+    .AdminButtons{
+        border-right: none;
+        padding: 0;
+        margin: auto !important;
+    }
+    .Style h1{
+        text-align: center;
+        margin: 0;
+    }
+    .OrderTop{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .OrderTop h3{
+        margin: 15px 0px;
+        text-align: center;
+    }
+    .Icons{
+        justify-content: center;
+    }
+    .card h3{
+        text-align: center;
+        font-size: 20px;
+        line-height: normal;
+        margin: 0;
+    }
+    .card{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .showMoreDiv{
+        margin:auto !important;
+    }
+    .Admin{
+        height: auto;
+    }
+    .details h3{
+        font-size: 18px;
+    }
+    .SentButton{
+        width: 80% !important;
+        margin-top: 10px !important;
+        font-size: 10px !important;
+    }
+    .buttons{
+        margin-top: 20px;
+    }
+    .products{
+        width: 100%;
+    }
+    .products hr{
+        display: flex;
+    }
+    .products h2{
+        text-align: center;
+    }
+    .Users{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .Products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .UsersCard .card{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .ExpandMoreIcon{
+        margin: 0;
+    }
+}

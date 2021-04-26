@@ -1,0 +1,36 @@
+.Product{
+    width: 250px;
+    cursor: pointer;
+    margin: auto;
+}
+.Products{
+    min-height: 100vh;
+}
+.Product_model{
+    margin-top: 0;
+}
+.Product img{
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit:contain;
+}
+.Product_Image_Div{
+   height: 170px;
+   position: relative;
+}
+.Product_price{
+    color: green;
+    font-size: 25px !important;
+}
+.Product h2{
+    font-size: 18px;
+    text-align: center;
+    line-height: 10px;
+}
+.Product img:hover{
+    transform:scale(1.1);
+}

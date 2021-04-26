@@ -1,0 +1,13 @@
+.mobileNav{
+    display: none;
+}
+@media(max-width:768px){
+    .mobileNav{
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom:0;
+        transition: 0.5s all;
+        z-index: 100;
+    }
+}

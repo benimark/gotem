@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94c07403.chunk.css",
+    "main.js": "/static/js/main.3d90a1b7.chunk.js",
+    "main.js.map": "/static/js/main.3d90a1b7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.248907bc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.248907bc.js.map",
+    "static/css/2.fe708519.chunk.css": "/static/css/2.fe708519.chunk.css",
+    "static/js/2.596824d5.chunk.js": "/static/js/2.596824d5.chunk.js",
+    "static/js/2.596824d5.chunk.js.map": "/static/js/2.596824d5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fe708519.chunk.css.map": "/static/css/2.fe708519.chunk.css.map",
+    "static/css/main.94c07403.chunk.css.map": "/static/css/main.94c07403.chunk.css.map",
+    "static/js/2.596824d5.chunk.js.LICENSE.txt": "/static/js/2.596824d5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Futura Condensed Extra Bold.74aa3b0f.otf",
+    "static/media/Home.module.css": "/static/media/background.655f7a41.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.248907bc.js",
+    "static/css/2.fe708519.chunk.css",
+    "static/js/2.596824d5.chunk.js",
+    "static/css/main.94c07403.chunk.css",
+    "static/js/main.3d90a1b7.chunk.js"
+  ]
+}

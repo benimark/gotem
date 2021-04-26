@@ -1,0 +1,71 @@
+.MinimalSelect-select-1,.MinimalSelect-icon-2{
+    color: black !important;
+    min-width: 0px !important;
+}
+.MinimalSelect-select-1{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.MinimalSelect-list-4 li.Mui-selected{
+    background: rgb(29, 29, 29) !important;
+}
+.MuiSelect-select.MuiSelect-select{
+    padding-right: 0 !important;
+}
+.MinimalSelect-list-4 li:hover{
+    background-color: #dbdbdb !important;
+}
+.MuiFormControl-root{
+    margin-top: 10px !important;
+    width: 100% !important;
+    margin-bottom: 5px !important;
+}
+.cardprice {
+    display: inline-block;
+    width: auto;
+    height: 38px;
+    background-color: rgb(29, 29, 29);
+    -webkit-border-radius: 3px 4px 4px 3px;
+    -moz-border-radius: 3px 4px 4px 3px;
+    border-radius: 12px 13px 13px 12px;
+    border-left: 1px solid rgb(29, 29, 29);
+    margin-left: 19px;	
+    position: relative;
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    padding: 0 10px 0 10px;
+    z-index: 0;
+}
+.cardprice:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 85px;
+    top:-19px;
+    width: 0;
+    height: 0;
+    transform: rotate(90deg);
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-right: 19px solid rgb(29, 29, 29);
+    z-index: -10;
+}
+@media(max-width:768px){
+    .MuiFormControl-root{
+        margin-top: 10px !important;
+        width: 100% !important;
+    }
+    .cardprice {
+        margin-left: 19px;	
+        padding: 0 10px 0 10px;
+    }
+    .cardprice:before {
+        left: 64px;
+         top:-19px;
+        width: 0;
+        height: 0;
+        transform: rotate(90deg);
+    }
+}

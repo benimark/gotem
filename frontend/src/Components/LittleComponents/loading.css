@@ -1,0 +1,22 @@
+.loading{
+    color: black !important;
+    position: absolute;
+}
+.loadingDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+.Error{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(248, 48, 48, 0.658);
+    color: white;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}

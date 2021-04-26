@@ -1,0 +1,101 @@
+.NameH1{
+    font-size: 40px;
+    line-height: 1px;
+}
+.ProductDetails h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2px;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+.ProductDescription{
+    text-align: justify;
+    font-size: 17px;
+}
+.productPictures{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.AddToCartButton{
+    background-color: rgb(29, 29, 29) !important;
+    color: white !important;
+    padding-top: 14px !important;
+    padding-left: 24px !important;
+    padding-bottom: 10px !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+    margin-top: 10px !important;
+    width: 100%;
+    box-shadow: 0px 5px 8px -3px rgba(0,0,0,0.14)!important;
+    border-radius: 12px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.ProductScreenImageDiv{
+    max-height: 700px;
+}
+.ProductScreenImage{
+   height: 100%; 
+   object-fit:scale-down;
+}
+.AddToCartButton.disabled{
+    border-top-left-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+}
+.productImages img{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.30);
+}
+/*MUTASS TÖBBET GOMB*/
+.MuiIconButton-root{
+    border-radius: 12px !important;
+    width: 100%;
+    font-family: 'Raleway', sans-serif !important;
+}
+/*ANIMÁCIÓ*/
+.fade-appear{
+    opacity: 0;
+}
+.fade-appear.fade-appear-active{
+    opacity: 1;
+    transition: all 1s;
+}
+.fade-exit{
+    opacity: 1;
+}
+.fade-exit.fade-exit-active{
+    opacity: 0;
+    transition: all 1s;
+}
+.disabled{
+    pointer-events: none;
+  }
+.MoreImageButton{
+    background-color: rgb(29, 29, 29) !important;
+    color: white !important;
+    padding-top: 14px !important;
+    padding-left: 24px !important;
+    padding-bottom: 10px !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+    margin-top: 10px !important;
+    box-shadow: 0px 5px 8px -3px rgba(0,0,0,0.14)!important;
+    border-radius: 12px !important;
+}
+@media(max-width:768px){
+    .ProductDescription{
+        text-align: justify;
+        font-size: 17px;
+    }
+    .productName h1{
+        font-size: 30px;
+    }
+    .ProductDetails{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

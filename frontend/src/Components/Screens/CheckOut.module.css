@@ -1,0 +1,45 @@
+.CheckOutScreen{
+    background-color: #ffffff;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-bottom: 10vh;
+}
+.billing{
+    padding: 20px;
+}
+
+.CartItems{
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.billing img{
+    width: 100%;
+}
+.CartItemsDiv{
+    margin-top: 30px;
+}
+.cartItems .model,.type,.name,.size,.price{
+    padding: 2px;
+}
+.price{
+    color: green;
+}
+.Total{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .checkBoxText{
+        font-size: 12px;
+    }
+    .billing h1{
+        text-align: center;
+    }
+ }
