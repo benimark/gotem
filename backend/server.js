@@ -7,7 +7,7 @@ import orderRouter from "./routers/orderRouter.js"
 import otherRouter from "./routers/otherRouter.js"
 import path from "path"
 import dotenv from "dotenv"
-
+const __dirname = path.resolve();
 dotenv.config()
 const app = express()
 const PORT = process.env.PORT || 5000
@@ -32,17 +32,13 @@ app.use('/api/v1/orders',orderRouter)
 
 app.use('/api/v1/products',productRouter)
 
-app.get('/',(req,res)=>{
-    res.send("Server is good bro")
-})
-
 if(process.env.NODE_ENV === 'production'){
-    console.log("Bro");
-    app.use(express.static(path.join(__dirname,'frontend/build')))
 
+    app.use(express.static(path.join(__dirname,'/frontend/build')))
     app.get('*',(req,res)=>{
         res.sendFile(path.join(__dirname,'frontend','build','index.html'))
     })
+    
 }
 
 app.listen(PORT,()=>{
