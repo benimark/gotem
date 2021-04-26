@@ -6,6 +6,8 @@ import bp from "body-parser"
 import orderRouter from "./routers/orderRouter.js"
 import otherRouter from "./routers/otherRouter.js"
 import path from "path"
+import dotenv from "dotenv"
+dotenv.config()
 
 const app = express()
 const PORT = process.env.PORT || 5000
