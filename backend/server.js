@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000
 app.use(bp.json({limit: '50mb'}))
 app.use(bp.urlencoded({ extended: true }))
 
-mongoose.connect(procces.env.MONGODB_URI || 'mongodb://localhost/gotem',{
+mongoose.connect(proces.env.MONGODB_URI || 'mongodb://localhost/gotem',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true,
@@ -34,7 +34,7 @@ app.get('/',(req,res)=>{
     res.send("Server is good bro")
 })
 
-if(procces.env.NODE_ENV === 'production'){
+if(proces.env.NODE_ENV === 'production'){
     app.use(express.static(path.join(__dirname,'/client/build')))
 
     app.get('*',(req,res)=>{
